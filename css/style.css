@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;   
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6em;
+}
+.admin{
+    display: inline-block;
+    padding-top: 4px
+}
+.badge{
+    border-radius: 15px;
+    background: #be4bdb;
+    color: #fff;
+}
+.letter{
+    background:  #be4bdb;
+}
+.welcome-text {
+    color:  #be4bdb;
+}
+.lead{
+    font-size: 15px;
+}
+ .mix i {  
+    width: 50px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 28px;
+    border: 10px solid #be4bdb;
+    border-radius: 150%;
+    background-color: #be4bdb;
+} 
+.mix {
+    border: none;
+}
+.text{
+    padding: 10px;
+    text-align: justify;
+    margin: 0 5px;
+}
+.card-title{
+    font-size-adjust: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.btn {
+    background: #fff;
+    color: #333;
+}
+.btn:hover{
+    color: #444;
+    background: #E6E6FA;
+}
+.courses h3 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+.mini-text{
+    padding: 30px;
+    margin: 0 40px;
+}
+.sub-text {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.mini-text span {
+    text-align: justify;
+    margin-left: 5px;
+}
+.container-box {
+ margin: 2px 15px; 
+}
+.list-group-item{
+    border: none;
+}
+.small {
+    font-size: 20px;
+    font-weight: bold;
+}
+.cards{
+    border:1px solid #D3D3D3;
+}
+/* instruction with bg image side */
+
+.container4{
+    height: 50vh;
+    background-image: linear-gradient(to right,rgba(51, 51, 51, 0.801) ,
+     rgba(68, 68, 68, 0.801)) , url(../img/bg2.jpg);
+    background-size: cover;
+    background-position: top;
+    color: #fff;
+    padding-top: 90px;
+}
+.container4 .box4 {
+    text-transform: uppercase;
+}
+.container4 .btn{
+    color: #fff;
+}
+/* footer navbar */
+.info-menu{
+    list-style: none;
+    line-height: 2.4em;
+    overflow: auto;
+
+}
+.info-menu li {
+   font-size: 18px;
+   text-transform: uppercase;
+   line-height: 2.4em;
+   float: left;
+}
+.info-menu li a {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    padding: 40px 60px;
+}
+footer {
+    margin-top: 10px;
+    padding: 2px;
+    background: #be4bdb;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-bottom{
+    color: #fff !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
