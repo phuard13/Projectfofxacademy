@@ -138,7 +138,9 @@ footer a {
 .footer-bottom{
     color: #fff !important;
 }
-
+.line {
+    background: #be4bdb
+}
 
 
 
