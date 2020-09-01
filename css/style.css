@@ -141,8 +141,21 @@ footer a {
 .line {
     background: #be4bdb
 }
-
-
+.btn1 {
+    background: #be4bdb;
+    color: #fff;
+}
+.btn1:hover{
+    color: #444;
+    background: #E6E6FA;;
+}
+.btn1 {
+    margin-bottom: 20px;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
 
 
 
