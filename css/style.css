@@ -9,6 +9,7 @@ body{
     font-size: 16px;
     line-height: 1.6em;
 }
+/* styling the admission small text */
 .admin{
     display: inline-block;
     padding-top: 4px
@@ -18,9 +19,11 @@ body{
     background: #be4bdb;
     color: #fff;
 }
+/* first navbar bg color */
 .letter{
     background:  #be4bdb;
 }
+/* jumotron styling */
 .welcome-text {
     color:  #be4bdb;
 }
@@ -35,6 +38,7 @@ body{
     border: 10px solid #be4bdb;
     border-radius: 150%;
     background-color: #be4bdb;
+    text-align: justify;
 } 
 .mix {
     border: none;
@@ -45,7 +49,7 @@ body{
     margin: 0 5px;
 }
 .card-title{
-    font-size-adjust: 20px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
 }
@@ -77,15 +81,19 @@ body{
 .container-box {
  margin: 2px 15px; 
 }
-.list-group-item{
-    border: none;
-}
 .small {
     font-size: 20px;
     font-weight: bold;
 }
 .cards{
     border:1px solid #D3D3D3;
+}
+.container-box .list-group-item{
+    text-decoration: none;
+    border: none;    
+}
+.container-box .active {
+    background: #be4bdb;
 }
 /* instruction with bg image side */
 
@@ -94,9 +102,9 @@ body{
     background-image: linear-gradient(to right,rgba(51, 51, 51, 0.801) ,
      rgba(68, 68, 68, 0.801)) , url(../img/bg2.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
     color: #fff;
-    padding-top: 90px;
+    padding-top: 40px;
 }
 .container4 .box4 {
     text-transform: uppercase;
@@ -123,7 +131,8 @@ body{
     font-weight: bold;
     color: #333;
     text-decoration: none;
-    padding: 40px 60px;
+    padding: 20px 40px;
+    margin: 14px;
 }
 footer {
     margin-top: 10px;
